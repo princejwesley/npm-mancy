@@ -18,7 +18,7 @@ var exeName = {
 
 if (!exeName[process.platform]) { throw new Error('Unsupported platform ' + process.platform); }
 
-var version = require('./package').version;
+var version = require('./package').version.replace(/-.*$/, '');
 // Already installed ?
 try {
   if (fs.readFileSync(path.join(__dirname, 'dist', 'semver'), 'utf8') === version
