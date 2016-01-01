@@ -1,0 +1,38 @@
+{
+  "name": "mancy",
+  "version": "1.0.0",
+  "description": "Install latest binary for mancy repl",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princejwesley/Mancy-download.git"
+  },
+  "bin": {
+    "mancy": "cli.js"
+  },
+  "keywords": [
+    "repl",
+    "GUI",
+    "electron",
+    "javascript",
+    "coffeescript",
+    "livescript",
+    "typescript"
+  ],
+  "author": "Prince John Wesley <princejohnwesley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/princejwesley/Mancy-download/issues"
+  },
+  "homepage": "https://github.com/princejwesley/Mancy-download#readme",
+  "dependencies": {
+    "del": "^2.2.0",
+    "extract-zip": "^1.3.0",
+    "mkdirp": "^0.5.1",
+    "nugget": "^1.6.0"
+  }
+}
