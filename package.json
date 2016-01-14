@@ -1,6 +1,6 @@
 {
   "name": "mancy",
-  "version": "2.2.0-1",
+  "version": "2.2.0-2",
   "description": "Install latest binary for mancy repl",
   "main": "index.js",
   "scripts": {
